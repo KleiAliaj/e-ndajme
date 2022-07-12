@@ -50,7 +50,7 @@
 </script>
 
 <SvelteSeo
-	title='splitio | home'
+	title='e-ndajme | home'
 	description='split your bills easily! splitio is an open-source webapp built for tracking debts and payments quickly, without any user accounts.'
 	openGraph={{
 		title: 'splitio | split your bills easily!',
@@ -82,7 +82,7 @@
 			}}
 		>
 			<Icon class="material-icons">add</Icon>
-			<Label>create group</Label>
+			<Label>Krijo grupin</Label>
 		</Button>
 		<!-- <div class="mdc-typography--body1">or paste your group id here:</div>
 		<Paper class="solo-paper" elevation={5}>

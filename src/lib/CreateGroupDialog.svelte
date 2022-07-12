@@ -15,14 +15,14 @@
 	aria-labelledby="default-focus-title"
 	aria-describedby="default-focus-content"
 >
-	<Title id="default-focus-title">✨ create a new group</Title>
+	<Title id="default-focus-title">✨Krijo grupin e ri</Title>
 	<Content id="default-focus-content">
-		please enter your groups name:
+		Vendosni emrin e grupit
 		<Textfield bind:value={inputName} />
 	</Content>
 	<Actions>
 		<Button>
-			<Label>cancel</Label>
+			<Label>Prishe</Label>
 		</Button>
 		<Button
 			variant="unelevated"
@@ -32,7 +32,7 @@
 				inputName = '';
 			}}
 		>
-			<Label>create!</Label>
+			<Label>Krijo!</Label>
 		</Button>
 	</Actions>
 </Dialog>

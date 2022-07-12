@@ -19,14 +19,14 @@
 	aria-labelledby="over-fullscreen-confirmation-title"
 	aria-describedby="over-fullscreen-confirmation-content"
 >
-	<Title id="over-focus-title">💰 record payment</Title>
+	<Title id="over-focus-title">💰 regjistro pagesen</Title>
 	<Content id="over-focus-content">
 		<List twoLine avatarList>
 			<Item on:click={() => console.log('hi')}>
 				<Graphic style="background-image: url({getMemberAvatarURL(payerName)});" />
 				<Text>
 					<PrimaryText>
-						{payerName} <span style="color: gray">pays to</span>
+						{payerName} <span style="color: gray">paguan tek</span>
 						{receiverName}
 					</PrimaryText>
 					<SecondaryText class="success-text">${roundedDebt}</SecondaryText>
@@ -38,7 +38,7 @@
 				/>
 			</Item>
 		</List>
-		<p>this will record a payment of ${roundedDebt} in the group</p>
+		<p>ketu rregjistrohet pagesa e ${roundedDebt} ne grup</p>
 	</Content>
 	<Actions>
 		<Button use={[InitialFocus]}>

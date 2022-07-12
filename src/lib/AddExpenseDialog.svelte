@@ -22,19 +22,19 @@
 	aria-labelledby="default-focus-title"
 	aria-describedby="default-focus-content"
 >
-	<Title id="default-focus-title">🧾 add expense</Title>
+	<Title id="default-focus-title">🧾 shto shpenzimin</Title>
 	<Content id="default-focus-content">
 		<LayoutGrid>
 			<Cell span={12}>
-				enter a description:
+				cfare u ble?:
 				<Textfield bind:value={inputName} />
 			</Cell>
 			<Cell span={12}>
-				enter the $ amount:
+				vendos shumen ne Lek:
 				<Textfield type="number" bind:value={inputAmount} />
 			</Cell>
 			<Cell span={12}>
-				who payed?
+				kush pagoji?
 				<Select bind:value={inputPaidBy} class="add-expense-select">
 					<Icon
 						slot="leadingIcon"
@@ -54,7 +54,7 @@
 	</Content>
 	<Actions>
 		<Button>
-			<Label>cancel</Label>
+			<Label>fshije</Label>
 		</Button>
 		<Button
 			variant="unelevated"
@@ -66,7 +66,7 @@
 				inputPaidBy = '';
 			}}
 		>
-			<Label>add</Label>
+			<Label>shtoje</Label>
 		</Button>
 	</Actions>
 </Dialog>

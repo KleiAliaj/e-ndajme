@@ -14,18 +14,18 @@
 	aria-labelledby="default-focus-title"
 	aria-describedby="default-focus-content"
 >
-	<Title id="default-focus-title">👋 add someone</Title>
+	<Title id="default-focus-title">👋 fute ktu</Title>
 	<Content id="default-focus-content">
 		<div>
-			enter their name:
+			vendos emrin e tij:
 			<Textfield bind:value={inputName} />
 		</div>
 
-		<p>⚠️ once added, <strong>you can't edit nor delete a member</strong>, so choose wisely!</p>
+		<p>⚠️ Nese e shtoni, <strong>ju nuk mundeni ta editoni ose fshini pjestarin</strong>, keshtu qe ndajeni mendjen!</p>
 	</Content>
 	<Actions>
 		<Button>
-			<Label>cancel</Label>
+			<Label>hiqe</Label>
 		</Button>
 		<Button
 			variant="unelevated"
@@ -35,7 +35,7 @@
 				inputName = '';
 			}}
 		>
-			<Label>add</Label>
+			<Label>shtoje</Label>
 		</Button>
 	</Actions>
 </Dialog>

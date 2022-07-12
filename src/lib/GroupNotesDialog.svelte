@@ -32,7 +32,7 @@
 	aria-describedby="default-focus-content"
 >
 	<Header>
-		<Title id="fullscreen-title">📝 group notes</Title>
+		<Title id="fullscreen-title">Shenimet e grupit</Title>
 		<IconButton action="close" class="material-icons">close</IconButton>
 	</Header>
 	<Content
@@ -56,13 +56,13 @@
 				<Button disabled={isSaving} on:click={submitNotes}>save</Button>
 			</div>
 		{:else}
-			<SvelteMarkdown source={$groupStore.groupNotes || '_no notes here... yet_'} />
+			<SvelteMarkdown source={$groupStore.groupNotes || '_ca ka ndonje te re... apo vetem te vjetra_'} />
 			<div class="buttons">
 				<Button
 					on:click={() => {
 						editNotesValue = get(groupStore).groupNotes;
 						isEditMode = true;
-					}}>edit</Button
+					}}>posto</Button
 				>
 			</div>
 		{/if}

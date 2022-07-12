@@ -16,7 +16,7 @@
 	>
 		<img src={base + "/logo_black.png"} height="27px" alt="icon" style="margin-left: 10px" href="/" />
 		<TopTitle style="font-family: Josefin Sans;font-size: x-large;margin-left: -13px;">
-			splitio
+			e-ndajme
 		</TopTitle>
 	</div>
 {:else}
@@ -26,7 +26,7 @@
 		style="align-items: center; display: flex; flex-direction: column; border-radius: 17px;"
 	>
 		<img src={base + "/logo_black.png"} height="70rem" style="margin-bottom: 10px;" alt="icon" />
-		<div class="logo-home">splitio</div>
+		<div class="logo-home">e-ndajmë</div>
 	</div>
 {/if}
 

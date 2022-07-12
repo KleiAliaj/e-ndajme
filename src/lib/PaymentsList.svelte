@@ -10,15 +10,15 @@
 	{#if pendingPayments.length === 0}
 		<Item disabled>
 			<Text>
-				<PrimaryText>no pending debts!</PrimaryText>
-				<SecondaryText>check others for payments...</SecondaryText>
+				<PrimaryText>nuk ka borxhe!</PrimaryText>
+				<SecondaryText>kontrollo te tjeret...</SecondaryText>
 			</Text>
 		</Item>
 	{:else}
 		{#each pendingPayments as [receiverName, debtAmount]}
 			<Item on:click={() => showRecordPaymentCallback(receiverName, debtAmount, payerName)}>
 				<Text>
-					<PrimaryText><span style="color: gray">pay to</span> {receiverName}</PrimaryText>
+					<PrimaryText><span style="color: gray">paguaj tek</span> {receiverName}</PrimaryText>
 					<SecondaryText class="error-text">${absRounded(debtAmount)}</SecondaryText>
 				</Text>
 				<Graphic

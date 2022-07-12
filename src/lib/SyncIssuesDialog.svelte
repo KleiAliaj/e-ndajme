@@ -12,16 +12,17 @@
 	aria-describedby="default-focus-content"
 >
 	<Header>
-		<Title id="fullscreen-title">🌐 sync troubleshooting</Title>
+		<Title id="fullscreen-title">🌐 Probleme me sinkronizimin?</Title>
 	</Header>
 	<Content id="default-focus-content" class="mdc-typography--body1" style="white-space: pre-line;">
-		all information in splitio is p2p distributed, like a torrent.
+		
+i gjithë informacioni në e-ndajme shpërndahet p2p, si një torrent.
 
-		when a group takes too long to load (or won't load), or some expenses are missing, <strong>open the group in another device at the same time</strong> to refresh the info.
+kur një grupi kërkon shumë kohë për t'u ngarkuar (ose nuk do të ngarkohet), ose kur mungojnë disa shpenzime, hapni grupin në një pajisje tjetër në të njëjtën kohë për të rifreskuar informacionin.
 	</Content>
 	<Actions>
 		<Button>
-			<Label>ok</Label>
+			<Label>ne rregull</Label>
 		</Button>
 	</Actions>
 </Dialog>

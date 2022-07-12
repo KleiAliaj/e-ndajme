@@ -38,7 +38,7 @@
 	<div class="container">
 		<slot />
 	</div>
-	<div class="mdc-typography--caption footer">made with ❤️ by cryptoboid</div>
+	<div class="mdc-typography--caption footer">E bere me ❤️ nga dikush qe ja u do te miren</div>
 </AutoAdjust>
 
 <style>

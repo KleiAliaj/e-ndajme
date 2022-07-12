@@ -47,17 +47,17 @@
 
 	let chips = [
 		{
-			title: 'balances',
+			title: 'balanca',
 			icon: 'balance',
 			onClick: () => (openViewBalancesDialog = true)
 		},
 		{
-			title: 'group notes',
+			title: 'shenimet',
 			icon: 'description',
 			onClick: () => (openGroupNotesDialog = true)
 		},
 		{
-			title: 'share group',
+			title: 'shperndaje',
 			icon: 'share',
 			onClick: () => {
 				if (navigator.share) {
@@ -75,7 +75,7 @@
 			}
 		},
 		{
-			title: 'sync issues?',
+			title: 'spo lidhesh?',
 			icon: 'sync_problem',
 			onClick: () => (openSyncIssuesDialog = true)
 		}
@@ -185,7 +185,7 @@
 
 <SvelteSeo
 	openGraph={{
-		title: 'splitio | group',
+		title: 'e-ndajme | group',
 		description:
 			'split your bills easily! splitio is an open-source webapp built for tracking debts and payments quickly, without any user accounts.',
 		url: 'https://github.com/cryptoboid/splitio',
@@ -202,7 +202,7 @@
 />
 
 <svelte:head>
-	<title>splitio | {$groupStore.groupInfo.name}</title>
+	<title>e-ndajme | {$groupStore.groupInfo.name}</title>
 </svelte:head>
 
 <div class="mdc-typography--headline5">{$groupStore.groupInfo.name}</div>
@@ -218,11 +218,11 @@
 	</Chip>
 </Set>
 
-<div class="mdc-typography--headline5">💸 group transactions</div>
+<div class="mdc-typography--headline5">💸 transaksionet e grupit</div>
 
 <TransactionsList {transactions} />
 
-<div class="mdc-typography--headline5">🤝 members</div>
+<div class="mdc-typography--headline5">🤝 pjestaret</div>
 
 <List oneLine avatarList style="margin-bottom: 70px;">
 	{#each members as [key, member]}
@@ -233,7 +233,7 @@
 		</Item>
 	{/each}
 	<Item on:click={() => (openAddMemberDialog = true)} class="rounded-item">
-		<Text>add someone</Text>
+		<Text>shto dike</Text>
 		<Meta class="material-icons">person_add</Meta>
 	</Item>
 </List>

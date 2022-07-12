@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>splitio | about</title>
+	<title>e-ndajme | about</title>
 </svelte:head>
 
 <div class="homepage-container">
@@ -14,14 +14,14 @@
 	</div>
 	<div class="group-text-container">
 		<Paper class="paper-demo" elevation={5}>
-			<Title>ℹ️ about</Title>
+			<Title>ℹ️ pakez info</Title>
 			<Content style="white-space: pre-line;">
-				split your bills easily! splitio is an open-source webapp built for tracking debts and payments quickly, without any user accounts.
+				ndani me lehtësi faturat tuaja! E-ndajme, është një aplikacion web, i krijuar për të gjurmuar shpejt borxhet dhe pagesat, pa asnjë llogari përdoruesi.
 
-				all info is shared in a p2p fashion (like a torrent), so make sure to connect with your friends at the same time if something goes wrong.
+të gjitha informacionet shpërndahen në një mënyrë p2p (si një torrent), prandaj sigurohuni që të lidheni me miqtë tuaj në të njëjtën kohë nëse diçka nuk shkon.
 
-				built by cryptoboid with SvelteKit and GunDB.
-				<Button
+ndërtuar nga kriptoboidi me SvelteKit dhe GunDB.
+				<!-- <Button
 					on:click={() => {}}
 					variant="raised"
 					href="https://github.com/cryptoboid/splitio"
@@ -31,7 +31,7 @@
 				>
 					<Label>GitHub</Label>
 					<Icon class="material-icons">open_in_new</Icon>
-				</Button>
+				</Button> -->
 			</Content>
 		</Paper>
 	</div>

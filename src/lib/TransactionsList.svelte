@@ -26,8 +26,8 @@
 	{#if !transactions.length}
 		<Item disabled class="rounded-item">
 			<Text>
-				<PrimaryText>nothing yet...</PrimaryText>
-				<SecondaryText>add a new expense with the plus sign</SecondaryText>
+				<PrimaryText>Akoma bosh...</PrimaryText>
+				<SecondaryText>Shto nje shpenzim tek shenja e +</SecondaryText>
 			</Text>
 		</Item>
 	{/if}

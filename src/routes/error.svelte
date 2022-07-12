@@ -9,5 +9,5 @@
 </script>
 
 <svelte:head>
-	<title>splitio | error</title>
+	<title>e-ndajme | error</title>
 </svelte:head>

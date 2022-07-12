@@ -8,5 +8,5 @@
   </script>
 
 <svelte:head>
-	<title>splitio | redirecting...</title>
+	<title>e-ndajme | redirecting...</title>
 </svelte:head>
