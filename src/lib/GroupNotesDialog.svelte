@@ -47,7 +47,7 @@
 				helperLine$style="width: 100%;"
 				textarea
 				bind:value={editNotesValue}
-				label="type something y'all shouldn't forget"
+				label="le nje shenim qe sduhet harruar"
 			>
 				<HelperText slot="helper">notes will be rendered with markdown</HelperText>
 			</Textfield>

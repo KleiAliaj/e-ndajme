@@ -187,8 +187,8 @@
 	openGraph={{
 		title: 'e-ndajme | group',
 		description:
-			'split your bills easily! splitio is an open-source webapp built for tracking debts and payments quickly, without any user accounts.',
-		url: 'https://github.com/cryptoboid/splitio',
+			'ndani me lehtësi faturat tuaja! e-ndajme është një ueb-aplikacion me burim të hapur i krijuar për të gjurmuar shpejt borxhet dhe pagesat, pa asnjë llogari përdoruesi.',
+		url: 'https://e-ndajme.vercel.app/',
 		type: 'website',
 		images: [
 			{
