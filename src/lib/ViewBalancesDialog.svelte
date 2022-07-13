@@ -44,13 +44,13 @@
 </script>
 
 <Dialog
-	fullscreen
+	
 	bind:open={openDialog}
 	aria-labelledby="default-focus-title"
 	aria-describedby="default-focus-content"
 >
 	<Header>
-		<Title id="fullscreen-title">⚖️ balanca</Title>
+		<Title id="fullscreen-title" style="">⚖️ balanca</Title>
 		<IconButton action="close" class="material-icons">close</IconButton>
 	</Header>
 	<Content id="default-focus-content">

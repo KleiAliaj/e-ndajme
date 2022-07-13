@@ -26,7 +26,7 @@
 </script>
 
 <Dialog
-	fullscreen
+	
 	bind:open={openDialog}
 	aria-labelledby="default-focus-title"
 	aria-describedby="default-focus-content"

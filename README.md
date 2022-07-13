@@ -14,21 +14,18 @@
 </p>
 
 <p align="center">
-split your bills easily! splitio is an open-source webapp built for tracking debts and
-payments quickly, without any user accounts.
+ndani me lehtësi faturat tuaja! e-ndajme është një aplikacion ueb me i krijuar për të gjurmuar borxhet dhe
+pagesa shpejt, pa asnjë llogari përdoruesi.
 </p>
 <p align="center">
-information is p2p distributed using gun and end-to-end encrypted using gun/sea.
+informacioni shpërndahet p2p duke përdorur armë dhe enkriptohet nga skaji në skaj duke përdorur armë/det.
 </p>
 <p align="center">
-built with SvelteKit and GunDB.
-</p>
+ndertuar nga klei</p>
 
 ## 🤔 how to use
 
-1. go to https://splitio.vercel.app (or self-host yours!)
-2. create a group with any name
-3. send your friends the long url to start sharing bills! no accounts required
+
 
 ## 🌟 showcase
 <table>

@@ -51,10 +51,11 @@
 
 <SvelteSeo
 	title='e-ndajme | home'
-	description='split your bills easily! splitio is an open-source webapp built for tracking debts and payments quickly, without any user accounts.'
+	description='
+	ndani me lehtësi faturat tuaja! e-ndajme është një aplikacion ueb me i krijuar për të gjurmuar shpejt shpenzimet,borxhet dhe pagesat, pa qene nevoja te hapni nje llogari përdoruesi.'
 	openGraph={{
-		title: 'splitio | split your bills easily!',
-		description: 'splitio is an open-source webapp built for tracking debts and payments quickly, without any user accounts.',
+		title: 'e-ndajme | ndani shpenzimet!',
+		description: '	ndani me lehtësi faturat tuaja! e-ndajme është një aplikacion ueb me i krijuar për të gjurmuar shpejt shpenzimet,borxhet dhe pagesat, pa qene nevoja te hapni nje llogari përdoruesi.',
 		url: 'https://github.com/cryptoboid/splitio',
 		type: 'website',
 		images: [
@@ -62,7 +63,7 @@
 				url: 'https://raw.githubusercontent.com/cryptoboid/splitio/main/static/splitio_banner.png',
 				width: 1280,
 				height: 640,
-				alt: 'splitio promotion banner'
+				alt: 'e-ndajme promotion banner'
 			}
 		]
 	}}
